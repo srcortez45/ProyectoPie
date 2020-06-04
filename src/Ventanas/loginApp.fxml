@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane fx:id="fxFondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="422.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="fxIngresar" layoutX="169.0" layoutY="260.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="85.0" text="Ingresar" />
+      <TextField layoutX="137.0" layoutY="93.0" promptText="nombre.apellido" />
+      <HBox prefHeight="32.0" prefWidth="118.0" />
+      <ImageView fitHeight="32.0" fitWidth="29.0" layoutX="90.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/usuario.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="35.0" layoutX="88.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/computadora.png" />
+         </image>
+      </ImageView>
+      <PasswordField layoutX="137.0" layoutY="174.0" promptText="contraseña" />
+      <Label fx:id="fxBienvenida" contentDisplay="CENTER" layoutX="88.0" layoutY="32.0" prefHeight="29.0" prefWidth="231.0" text="Bienvenido estudiante" textAlignment="JUSTIFY" wrapText="true" />
+      <Label fx:id="fxpassForget" layoutX="148.0" layoutY="215.0" text="olvide la contraseña..." />
+   </children>
+</AnchorPane>
