@@ -6,73 +6,61 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="fxFondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="413.0" prefWidth="442.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="fxFondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="361.0" prefWidth="442.0" style="-fx-background-color: #e3b596;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="17.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/deberes.png" />
+            <Image url="@../recursos/asignacionesIcon.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="47.0" layoutX="17.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/calendario.png" />
+            <Image url="@../recursos/calendarioIcon.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="17.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="17.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/carpeta%20(1).png" />
+            <Image url="@../recursos/carpeta%20(1).png" />
          </image>
       </ImageView>
       <ImageView fitHeight="59.0" fitWidth="63.0" layoutX="11.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/icons8-search-100.png" />
+            <Image url="@../recursos/buscarIcon.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="236.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/usuario.png" />
+            <Image url="@../recursos/usuario-Icono.png" />
          </image>
       </ImageView>
-      <Label layoutX="83.0" layoutY="113.0" text="Proximas Asignaciones" />
-      <Label layoutX="83.0" layoutY="175.0" text="Revisar el calendario" />
-      <Label layoutX="85.0" layoutY="240.0" text="Tarea pendiente..." />
-      <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="372.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../Downloads/logout.png" />
-         </image>
-      </ImageView>
-      <Label layoutX="330.0" layoutY="363.0" prefHeight="25.0" prefWidth="37.0" text="Salir..." />
-      <Label layoutX="311.0" layoutY="175.0" text="Perfil estudiantil" />
-      <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="17.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../Downloads/engranaje.png" />
-         </image>
-      </ImageView>
-      <Label layoutX="85.0" layoutY="367.0" text="Configuracion" />
-      <ImageView fitHeight="59.0" fitWidth="53.0" layoutX="14.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../Downloads/icons8-calculator-96.png" />
-         </image>
-      </ImageView>
-      <Label layoutX="85.0" layoutY="299.0" text="Caluladora Cientifica" />
+      <Label layoutX="89.0" layoutY="113.0" style="-fx-text-fill: black; -fx-font-weight: bolder;" text="Proximas asignaciones" />
+      <Label layoutX="88.0" layoutY="175.0" style="-fx-text-fill: black; -fx-font-weight: bolder;" text="Revisar calendario" />
+      <Label layoutX="89.0" layoutY="240.0" style="-fx-text-fill: black; -fx-font-weight: bolder;" text="Tarea pendiente..." />
+      <Label layoutX="89.0" layoutY="314.0" prefHeight="25.0" prefWidth="109.0" style="-fx-text-fill: black; -fx-font-weight: bolder;" text="Videoconferencias" />
+      <Label layoutX="310.0" layoutY="175.0" style="-fx-text-fill: black; -fx-font-weight: bolder;" text="Perfil estudiantil" />
       <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="233.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/icons8-brick-96.png" />
+            <Image url="@../recursos/icons8-brick-96.png" />
          </image>
       </ImageView>
-      <Label layoutX="311.0" layoutY="113.0" text="Mis cursos" />
-      <Label layoutX="313.0" layoutY="240.0" text="Calificaciones" />
+      <Label layoutX="311.0" layoutY="113.0" style="-fx-text-fill: black; -fx-font-weight: bolder;" text="Mis cursos" />
+      <Label layoutX="310.0" layoutY="240.0" style="-fx-text-fill: black; -fx-font-weight: bolder;" text="Calificaciones" />
       <ImageView fitHeight="68.0" fitWidth="59.0" layoutX="230.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/icons8-report-card-96.png" />
+            <Image url="@../recursos/calificacionesIcon.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="224.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="224.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/icons8-more-200.png" />
+            <Image url="@../recursos/masIcon.png" />
          </image>
       </ImageView>
-      <Label layoutX="319.0" layoutY="308.0" text="Mas..." />
-      <TextField layoutX="85.0" layoutY="26.0" prefHeight="25.0" prefWidth="322.0" promptText="Buscar Informacion" />
+      <Label layoutX="311.0" layoutY="318.0" style="-fx-text-fill: black; -fx-font-weight: bolder;" text="Mas..." />
+      <TextField layoutX="105.0" layoutY="26.0" prefHeight="25.0" prefWidth="259.0" promptText="Bienvenido estudiante" style="-fx-font-weight: bolder;" text="Bienvenido Estudiante" />
+      <ImageView fitHeight="93.0" fitWidth="53.0" layoutX="14.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/videollamadasIcon.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
